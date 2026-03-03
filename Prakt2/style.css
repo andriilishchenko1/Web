@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c3bcf5;
+    line-height: 20px;
+    padding: 20px;
+}
+h2{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 20px;
+
+}
+ul{
+    padding-left: 20px;
+
+}
+a{
+    color: indianred;
+    text-decoration: none;
+    font-weight: bold;
+}
+blockquote{
+    color: cornflowerblue;
+    font-style: italic;
+
+}
+figure{
+    text-align: center;
+
+}
+figcaption{
+    color: aliceblue;
+    font-style: italic;
+
+}
