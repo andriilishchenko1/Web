@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+font-family: "Karla", sans-serif;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+    list-style: none;
+
+}
+
+nav ul li a {
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #a527ed;
+}
+.hero-img {
+    display: flex;
+    justify-content: center;
+}
+.hero-img img {
+
+}
+
+
+
+.hero-wrapper img{
+    width: 1440px;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.name{
+    font-size: 20px;
+
+}
+.new_cost{
+    font-size: 19px;
+    color:#A25F4B;
+    text-align: center;
+    text-transform: uppercase;
+}
+.prev_cost{
+    font-size: 16px;
+    color:#1D1F2E;
+}
+.mugs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 10px;
+
+}
+
+.footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    padding: 60px 0 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-col h4 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+.footer-col a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.footer-col a:hover {
+    color: white;
+}
+
+.footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
