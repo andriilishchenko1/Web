@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f172b;
+    color: #fff;
+}
+.wrapper{
+    padding: 240px;
+    margin: 20px;
+
+}
+
+.header-wrapper{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #0f172b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2b80ff;
+}
+.logo-text{
+    background: #ffffff;
+    background-clip: text;
+    color: transparent;
+}
+.btn_menu{
+    color: #fff;
+    background: #0f172b;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn_menu:hover{
+    color:  #2b80ff;
+}
+.hero h1{
+    font-size: 60px;
+    color: #2b80ff;
+}
+.hero p{
+    color: #91a2ba;
+    font-size: 20px;
+}
+.hero svg{
+    color: #122140;
+
+    top: 10rem;
+    right: 1.5rem;
+    z-index: -1;
+}
+.hr{
+    color: #1d293d;
+}
+.path{
+    display: flex;
+
+}
+.fixed-chat-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #83bff4;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgb(54, 99, 243);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fixed-chat-btn:hover{
+    color: #2b80ff;
+}
