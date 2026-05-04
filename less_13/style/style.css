@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-family: Inter, sans-serif;
+}
+body{
+    background: linear-gradient(#f0f6ff, #f7f8ff);
+}
+.wrapper {
+    max-width: 800px;
+    background: #ffffff;
+    margin: 0 auto;
+    border-radius: 12px;
+
+}
+h1{
+    color: #4346f7;
+    font-size: 36px;
+    font-weight: bold;
+}
+h2{
+    color: #1d398f;
+    height: 24px;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.header_p{
+
+}
+.h3{
+    
+}
